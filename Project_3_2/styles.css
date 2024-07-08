@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.menu-container{
+
+  background-color:rgb(33, 31, 31);
+  position: relative;
+  color: white;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 10px;;
+}
+.menu{
+  display: flex;
+}
+.item{
+  margin-left:10px;
+  padding: 7px;
+  font-size:16ox;
+  cursor:pointer;
+
+}
+.item:hover{
+  color: aqua;
+}
+.banner-img{
+  width: 300px;
+}
+.banner-container{
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 90vh;
+   background-image: url(./logo/black.png),linear-gradient(45deg,rgb(58, 58, 190),red);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+  }
+.tittle{
+  font-size:50px ;
+  font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 2px;
+}
+.t{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:55px ;
+  font-weight: bold;
+}
+.about-container{
+  color: black;
+   display: flex;
+   padding: 20px;
+   justify-content: space-around;
+   align-items: center;
+   height: 30vh;
+  background:white;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+ 
+}
+.section-tittle{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    font-size:55px ;
+    font-weight: bold;
+    
+}
+.left{
+    text-align: right;
+    margin: 20px;
+}
+.descrip{
+ 
+  margin-top: 10px;
+  margin-bottom: 15px;
+  
+}
+.container1{
+
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  background-color: #04444e;
+  margin-bottom: 600px;
+}
+.banner{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #04444e;
+  padding-block-start:800px;
+ }
+ .ti{
+  font-size:15px ;
+  font-weight: bold;
+}
+.contact-image{
+   width: 50px;
+   height: 30px;
+   padding-left:50px;
+}
+ .facebook{
+   padding-right:50px;
+} 
+.contact{
+  text-align: center;
+  font-size: 50ve;
+  color:white;
+  font-weight: bold;
+  padding-right:200px;
+  background-color: darkblue;
+   
+}
+.f{
+   width: 50px;
+   height: 30px;
+   padding-left:60px;
+}
+.h{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    background-color:#04444e;
+    color: white;
+    margin-top: 100px;
+
+}
+.help{
+   margin-left: 200px;
+}
+.aa{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
